@@ -13,7 +13,7 @@
 #include <errno.h>
 #include <sys/mdio.h>
 
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 102400
 
 void nvram_get_var( const char *name, char *value, unsigned long *length );
 void nvram_set_var( const char* name, const char *value );
